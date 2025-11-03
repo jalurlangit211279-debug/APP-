@@ -1,6 +1,5 @@
 # generate_html.py
 #!/usr/bin/python
-html_content = """
 # Mencetak konten ke konsol (opsional)
 print("--- Konten HTML yang Dihasilkan ---")
 print("html_content")
