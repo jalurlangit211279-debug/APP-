@@ -1,4 +1,5 @@
-  <div class="note center">Silahkan login untuk mulai bermain</div>
+#!/usr/bin/python
+print ("Silahkan login untuk mulai bermain")
                         <div>
                             <input type="hidden" id="ceklogin" value="/json/post/ceklogin">
                             <!-- login form and button -->
