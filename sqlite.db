@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS pengguna (
+    id INTEGER PRIMARY KEY,
+    nama TEXT NOT NULL,
+    email TEXT NOT NULL
+);
+
+INSERT INTO pengguna (nama, email) VALUES ('Jalur Langit', 'jalurlangit211279@github.com');
+INSERT INTO pengguna (nama, email) VALUES ('Jalur Langit', 'jalurlangit211279@github.com');
+.quit
