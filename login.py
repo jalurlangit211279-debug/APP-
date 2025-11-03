@@ -1,5 +1,18 @@
+# generate_html.py
 #!/usr/bin/python
-print ("Silahkan login untuk mulai bermain")
+html_content = """
+# Mencetak konten ke konsol (opsional)
+print("--- Konten HTML yang Dihasilkan ---")
+print("html_content")
+
+# Menyimpan konten ke file HTML
+with open("login.html.py", "w") as f:
+    f.write(html_content)
+
+print("--- File index.html berhasil dibuat ---")
+
+<!DOCTYPE html>
+print("Silahkan login untuk mulai bermain")
                         <div>
                             <input type="hidden" id="ceklogin" value="/json/post/ceklogin">
                             <!-- login form and button -->
